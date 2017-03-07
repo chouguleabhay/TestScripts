@@ -100,5 +100,9 @@ public class testCases {
 		driver.findElement(By.linkText("Cancel")).click();
 
 	}
+	@Test
+	public void postedPage(){
+	WebElement ele1 = driver.findElement(By.xpath(str1[0]));
+	}
 	
 }
